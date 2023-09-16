@@ -1,5 +1,6 @@
 public class Main{
   public static void main(String[]args){
-    int i = 3.2;
+    int age = (int)3.2;
+    System.out.println(age);
   }
 }
