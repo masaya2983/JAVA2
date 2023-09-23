@@ -5,7 +5,7 @@ public class Main{
       System.out.println(element);
     }
   }
-  {
+  public static void main(String[] args){
     int[] array = {1, 2, 3};
     printArray(array);
   }
