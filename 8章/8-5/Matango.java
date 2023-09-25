@@ -1,4 +1,4 @@
 public class Matango{
   int hp;
-  int level = 10
+  int level = 10;
 }
