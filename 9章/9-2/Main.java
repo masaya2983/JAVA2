@@ -6,6 +6,6 @@ public class Main{
     Hero h2;
     h2 = h1;
     h2.hp = 200;
-    System.out.println(h1,hp)
+    System.out.println(h1,hp);
   }
 }
