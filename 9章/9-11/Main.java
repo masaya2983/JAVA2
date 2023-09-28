@@ -3,6 +3,6 @@ public class Main{
     Hero h = new Hero("ミナト");
     
     System.out.println(h.hp);
-    System.out.println(h.name)
+    System.out.println(h.name);
   }
 }
