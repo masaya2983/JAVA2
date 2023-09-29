@@ -13,6 +13,11 @@ public class SuperHero{
     System.out.println(this.name + "逃げ出した！");
   }
   //飛ぶ
+  public void fly(){
+    this.flying = true;
+    System.out.println()
+  }
+  //着地する
   public void land(){
     this.flying = true;
     System.out.println("飛び上がった！");
