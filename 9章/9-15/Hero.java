@@ -7,6 +7,6 @@ public class Hero{
     this.name = name;
   }
   public Hero(){
-    this. = "ダミー";
+    this.Hero = "ダミー";
   }
 }
