@@ -1,4 +1,4 @@
 public class Character{
   
-  public abstract void attac(Matango m)
+  public abstract void attac(Matango m);
 }
