@@ -1,3 +1,3 @@
 public abstract class Creatures{
-  public abstract void run();
+   void run();p
 }
