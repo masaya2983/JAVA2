@@ -5,6 +5,6 @@ public class Dancer extends Character{
   public void attack(Matango m){
     System.out.pritln(this.name + "の攻撃");
     System.out.println("敵に3ポイント");
-    m.hp -= 
+    m.hp -= 3;
   }
 }
