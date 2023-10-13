@@ -9,5 +9,5 @@ public void setName (String name) {
   if (name.length() >= 8){
     throw new IllegalArgumentExceotion("名前が長すぎる。処理を中断。");
   }
-  this.name
+  this.name = name;
 }
