@@ -1,7 +1,7 @@
 public class Hero{
   String name;
   int hp;
-  
+
   public boolean equals(Object o){
     if (this == o){ return true;}
     if (o instanceof Hero) {
