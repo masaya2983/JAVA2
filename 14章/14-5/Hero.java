@@ -3,6 +3,6 @@ public class Hero{
   int hp;
   
   public String toString() {
-    return "名前:" + this.name +"/HP:" +this 
+    return "名前:" + this.name +"/HP:" +this.hp;
   }
 }

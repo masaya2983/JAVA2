@@ -6,6 +6,6 @@ public class Main{
     System.out.println(Hero.money);
     System.out,println(h1.money);
     h1.money = 300;
-    System.out.println(h2)
+    System.out.println(h2.money);
   }
 }

@@ -9,7 +9,7 @@ public class Main{
     if (h1.equals(h2) == true){
       System.out.println("同じ内容です");
     }else{
-      System.out.println("違う内容です")
+      System.out.println("違う内容です");
     }
   }
 }
