@@ -14,6 +14,14 @@ public class Main {
     ZonedDateTime z2 = ZoneDateTime.of(2020,1,2,3,4,5,6,ZoneId.of("Asia/Tokyo"));
     
     
+    Instant i3 = z2.toInstant();
+    ZoneDateTime z3 = i3.atZone(ZoneID.of("Europe/London"));
+    
+    
+    System.out.println("東京:" + z2.getYear() +z3.getMonth() + z3.getDayMonth());
+    if(z2.isEqual(z3)){
+      System.out.println("これらは同じ瞬間を指しています");
+    }
     
   }
 }
