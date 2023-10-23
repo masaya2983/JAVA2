@@ -9,7 +9,7 @@ public class Main{
     word.add("wolf");
     word.add("panda");
     for (String s : words) {
-      System.out.print(S + "→");L
+      System.out.print(S + "→");
     }
   }
 }
