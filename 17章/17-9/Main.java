@@ -1,4 +1,4 @@
-import java.io.*;
+import juava.io.*;
 
 public class Main{
   public static void main(String[] args){
@@ -9,10 +9,12 @@ public class Main{
     }catch (Exception e){
       System.out.println("何らかの例外が発生しました");
     }finally{
-      try{
-        fw.close();
-      }catch (IOException e){
-        ;
+      if (fw != null){
+        try{
+          fw.close();
+        }catch (IOException e){
+          
+        }
       }
     }
   }
