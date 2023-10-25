@@ -8,6 +8,6 @@ public class Main{
       System.out.println((char)input);
       input = fr.read();
     }
-    fr.close()
+    fr.close();
   }
 }
